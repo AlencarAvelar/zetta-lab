@@ -35,7 +35,7 @@ A análise busca responder:
 - I_FREQ_PROP	Índice de frequência escolar proporcional
 ### Renda
 - GINI	Índice de Gini (medida de desigualdade de renda)
-- CPR	Renda per capita (Código Atlas: CPR - provavelmente “Renda per capita média”)
+- RDPC	Renda per capita média 
 ### 🔹 Identificação Geográfica
 - Código da unidade (`Cod_ID`)
 - Nome da UDH (`NOME_UDH`)
