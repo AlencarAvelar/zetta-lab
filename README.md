@@ -47,19 +47,41 @@ A análise busca responder:
 
 ### 🗂️ Arquivos:
 1. **dados-bh.xls**  
-   - Contém dados das Unidades de Desenvolvimento Humano (UDHs) da Região Metropolitana de BH.  
-   - 1.246 linhas e 237 colunas (dados detalhados sobre demografia, educação, renda e IDH).  
-   - Fonte: [Atlas do Desenvolvimento Humano no Brasil](https://atlasbrasil.org.br/)
+   - Contém dados das Unidades de Desenvolvimento Humano (UDHs) da Região Metropolitana de BH.   
 
 2. **A - DICIONÁRIO dos indicadores do Atlas.xlsx**  
    - Dicionário com a descrição de cada variável presente na base principal.  
    - Utilizado para identificação das colunas relevantes à análise.
 
+## 🗂️ Estrutura do Projeto
+
+```
+   .
+   ├── data
+   │   ├── A - DICIONÁRIO dos indicadores do Atlas.xlsx
+   │   ├── raw
+   │   │   ├── dados-bh.xls
+   │   │   └── .ipynb_checkpoints
+   │   ├── refined
+   │   └── trusted
+   │       └── base_udh_trusted.csv
+   ├── .ipynb_checkpoints
+   ├── LICENSE
+   ├── notebooks
+   │   ├── etl_to_refined.ipynb
+   │   ├── etl_to_trusted.ipynb
+   │   ├── explore.ipynb
+   │   ├── .ipynb_checkpoints
+   │   │   ├── explore-checkpoint.ipynb
+   │   │   └── Untitled-checkpoint.ipynb
+   │   └── Untitled.ipynb
+   └── README.md
+
+   ```
 
 
 
 
-
-## 📚 **Referências**
+   ## 📚 **Referências**
 
 - [Atlas do Desenvolvimento Humano no Brasil (PNUD/Ipea/FJP)](https://atlasbrasil.org.br/)  
