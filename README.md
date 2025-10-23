@@ -1,4 +1,4 @@
-# 📊 Análise Socioeconômica da Região Metropolitana de Belo Horizonte  
+# 📊 Análise Socioeconômica da Região Metropolitana de Belo Horizonte
 ### *Como o nível de educação e renda influencia o desenvolvimento humano*
 
 ---
@@ -9,13 +9,13 @@ O Brasil é um país marcado por fortes desigualdades sociais e regionais, onde 
 
 Entender **como esses fatores se relacionam** é essencial para embasar políticas públicas eficazes e direcionadas às necessidades específicas de cada território.  
 
-Neste projeto, focamos na **Região Metropolitana de Belo Horizonte (RMBH)**, utilizando dados do **Atlas do Desenvolvimento Humano no Brasil (PNUD, IPEA e FJP)** para investigar **a influência da educação e da renda sobre o desenvolvimento humano**.
+Neste projeto, focamos na **Região Metropolitana de Belo Horizonte (RMBH)**, utilizando dados do **Atlas do Desenvolvimento Humano no Brasil** para investigar **a influência da educação e da renda sobre o desenvolvimento humano**.
 
 ---
 
 ## 🎯 **2. Objetivo do Projeto**
 
-Analisar e visualizar como o **nível de escolaridade** e a **renda** afetam o **Índice de Desenvolvimento Humano (IDH)** na Região Metropolitana de Belo Horizonte.
+Analisar e visualizar como o **nível de escolaridade** e a **renda** afetam o **Índice de Desenvolvimento Humano (IDHM)** nas Unidades de Desenvolvimento Humano (UDHs) da Região Metropolitana de Belo Horizonte (RMBH).
 
 A análise busca responder:
 > “Como o nível de educação e renda influencia o desenvolvimento humano nas regiões urbanas da RMBH?”
@@ -53,35 +53,58 @@ A análise busca responder:
    - Dicionário com a descrição de cada variável presente na base principal.  
    - Utilizado para identificação das colunas relevantes à análise.
 
-## 🗂️ Estrutura do Projeto
+---
+
+## 📚 **5. Análises Disponíveis**
+
+Este repositório contém os seguintes notebooks de análise:
+
+### `Analisys.ipynb`
+Este notebook foca na análise exploratória das relações entre educação, renda e IDHM. As principais análises incluem:
+- **Correlação entre Média de Anos de Estudo e IDHM**: Um gráfico de dispersão com linha de regressão mostra a relação entre a média de anos de estudo e o Índice de Desenvolvimento Humano Municipal (IDHM).
+- **Correlação entre Renda Per Capita e IDHM**: Similarmente, um gráfico de dispersão com linha de regressão ilustra a relação entre a renda per capita e o IDHM.
+- **Heatmap de Correlação**: Um mapa de calor exibe as correlações entre diversas variáveis relacionadas à educação, renda e IDHM, fornecendo uma visão geral das interdependências.
+- **Ranking de UDHs por IDHM**: Gráficos de barras apresentam as 10 UDHs com maior e menor IDHM, destacando as áreas de melhor e pior desenvolvimento humano.
+
+### `plot_geopandas.ipynb`
+Este notebook utiliza a biblioteca `geopandas` para visualizar dados geográficos e socioeconômicos da RMBH. As análises geográficas incluem:
+- **Mapa de IDHM**: Visualização do Índice de Desenvolvimento Humano Municipal (IDHM) distribuído geograficamente pelas UDHs da RMBH, utilizando um esquema de cores para indicar os níveis de desenvolvimento.
+- **Mapa de Índice de Escolaridade**: Representação geográfica do Índice de Escolaridade (I_ESCOLARIDADE) nas UDHs.
+- **Mapa de Renda Per Capita (RDPC)**: Visualização da Renda Per Capita (RDPC) por UDH.
+- **Mapa de Coeficiente de Gini (GINI)**: Distribuição geográfica do Coeficiente de Gini, indicando a desigualdade de renda nas UDHs.
+
+---
+
+## 🗂️ **6. Estrutura do Projeto**
 
 ```
-   .
-   ├── data
-   │   ├── A - DICIONÁRIO dos indicadores do Atlas.xlsx
-   │   ├── raw
-   │   │   ├── dados-bh.xls
-   │   │   └── .ipynb_checkpoints
-   │   ├── refined
-   │   └── trusted
-   │       └── base_udh_trusted.csv
-   ├── .ipynb_checkpoints
-   ├── LICENSE
-   ├── notebooks
-   │   ├── etl_to_refined.ipynb
-   │   ├── etl_to_trusted.ipynb
-   │   ├── explore.ipynb
-   │   ├── .ipynb_checkpoints
-   │   │   ├── explore-checkpoint.ipynb
-   │   │   └── Untitled-checkpoint.ipynb
-   │   └── Untitled.ipynb
-   └── README.md
+.
+├── data
+│   ├── A - DICIONÁRIO dos indicadores do Atlas.xlsx
+│   ├── raw
+│   │   ├── dados-bh.xls
+│   │   └── shapefiles/  # Contém os arquivos .shp, .dbf, .prj, .shx para geolocalização
+│   ├── refined
+│   │   └── base_udh_refined.csv
+│   └── trusted
+│       └── base_udh_trusted.csv
+├── notebooks
+│   ├── Analisys.ipynb
+│   ├── etl_to_refined.ipynb
+│   ├── etl_to_trusted.ipynb
+│   ├── explore.ipynb
+│   ├── plot_geopandas.ipynb
+│   └── README.md
+├── LICENSE
+└── README.md
+└── Zetta_Lab_Dashboard.pdf
 
-   ```
+```
 
+---
 
+## 📚 **7. Créditos e Referências**
 
+- **Dados**: [Atlas do Desenvolvimento Humano no Brasil](https://atlasbrasil.org.br/)
+- **Autor do Repositório Original**: Alencar Avelar
 
-   ## 📚 **Referências**
-
-- [Atlas do Desenvolvimento Humano no Brasil (PNUD/Ipea/FJP)](https://atlasbrasil.org.br/)  
