@@ -106,5 +106,5 @@ Este notebook utiliza a biblioteca `geopandas` para visualizar dados geográfico
 ## 📚 **7. Créditos e Referências**
 
 - **Dados**: [Atlas do Desenvolvimento Humano no Brasil](https://atlasbrasil.org.br/)
-- **Autor do Repositório Original**: Alencar Avelar
+- **Autor do Repositório**: Alencar Avelar
 
