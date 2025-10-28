@@ -7,3 +7,6 @@
 *.xlsx binary
 *.pptx binary
 *.docx binary
+
+
+*.pdf -text
