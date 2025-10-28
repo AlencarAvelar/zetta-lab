@@ -83,7 +83,7 @@ O presente relatório — **Zetta Lab Relatório de Análise Socioeconômica** �
 
 Ele consolida os principais **resultados e visualizações** obtidos durante o estudo, apresentando uma visão integrada sobre como **educação, renda e desigualdade** influenciam o **desenvolvimento humano** na Região Metropolitana de Belo Horizonte (RMBH).
 
-### 📎 **Anexo:** [Zetta_Lab_Relatorio.pdf](./Zetta_Lab_Relatorio.pdf)
+### 📎 **Anexo:** [Zetta_Lab_Relatorio.pdf](./Zetta_Lab_Dashboard.pdf)
 
 Esses resultados reforçam a importância de políticas públicas voltadas à **redução das desigualdades educacionais e econômicas** para promover um desenvolvimento mais equilibrado na RMBH.
 
