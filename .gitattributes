@@ -1,1 +1,9 @@
+# Arquivos binários — nunca converter
 *.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.xlsx binary
+*.pptx binary
+*.docx binary
