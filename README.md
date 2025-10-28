@@ -75,11 +75,26 @@ Este notebook utiliza a biblioteca `geopandas` para visualizar dados geográfico
 
 ---
 
-## 🗂️ **6. Estrutura do Projeto**
+---
+
+## 📈 **6. Resultado das Análises**
+
+O presente relatório — **Zetta Lab Relatório de Análise Socioeconômica** — foi elaborado a partir das análises realizadas nos notebooks `Analisys.ipynb` e `plot_geopandas.ipynb`.  
+
+Ele consolida os principais **resultados e visualizações** obtidos durante o estudo, apresentando uma visão integrada sobre como **educação, renda e desigualdade** influenciam o **desenvolvimento humano** na Região Metropolitana de Belo Horizonte (RMBH).
+
+📎 **Anexo:** [Zetta_Lab_Relatorio.pdf](./Zetta_Lab_Relatorio.pdf)
+
+Esses resultados reforçam a importância de políticas públicas voltadas à **redução das desigualdades educacionais e econômicas** para promover um desenvolvimento mais equilibrado na RMBH.
+
+---
+
+
+## 🗂️ **7. Estrutura do Projeto**
 
 ```
 .
-├── data
+├── data  
 │   ├── A - DICIONÁRIO dos indicadores do Atlas.xlsx
 │   ├── raw
 │   │   ├── dados-bh.xls
@@ -97,13 +112,13 @@ Este notebook utiliza a biblioteca `geopandas` para visualizar dados geográfico
 │   └── README.md
 ├── LICENSE
 └── README.md
-└── Zetta_Lab_Dashboard.pdf
+└── Zetta_Lab_Relatorio.pdf
 
 ```
 
 ---
 
-## 📚 **7. Créditos e Referências**
+## 📚 **8. Créditos e Referências**
 
 - **Dados**: [Atlas do Desenvolvimento Humano no Brasil](https://atlasbrasil.org.br/)
 - **Autor do Repositório**: Alencar Avelar
